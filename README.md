@@ -96,7 +96,7 @@ The model uses a simple CNN architecture with convolutional, Max pooling and den
 Clone the repository: git clone [https://github.com/SnehalVirwadekar/MelanomaSkinCancerDetection_CNN.git]
 
 
-## Conclusions
+## Observations
 
 ### Initial model 
 
@@ -105,7 +105,7 @@ Clone the repository: git clone [https://github.com/SnehalVirwadekar/MelanomaSki
 <p>- The visual representation of the model's performance indicates a substantial discrepancy between the training accuracy and validation accuracy, achieving a validation accuracy of approximately 50%.
 <p>- The noticeable difference between the training accuracy and validation accuracy is a clear indication of overfitting, indicating that the model may not generalize well to unseen data.
 
-### After training on the augmented data :
+### After training on the augmented data 
 
 <p>- The training accuracy exhibits a linear increase over time, while the validation accuracy increases and plateaus at 55% during the training process.
 <p>- As the training epochs progress, the training loss decreases in a consistent manner, and the validation loss decreases before plateauing.
@@ -138,14 +138,21 @@ Clone the repository: git clone [https://github.com/SnehalVirwadekar/MelanomaSki
 <p>- The plots demonstrate a significant reduction in the gap between the training accuracy and validation accuracy compared to the previous model, reaching approximately 75% accuracy on the validation set.
 
 <p>- The difference between the training accuracy and validation accuracy is now minimal.
+ 
+ ### Conclusion 
+- The model showed promising results in detecting melanoma in skin images with high accuracy, sensitivity, and specificity. The deployment of the model in a dermatologist's workflow has the potential to reduce manual effort in the diagnosis of melanoma.
+
 
 
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- TensorFlow - version 2.4.0
+- Keras - version 2.5.0
+- Numpy - version 1.19.2
+- Matplotlib - version 3.3.1
+- Sklearn - version 0.24.1
+
 
 
 ## References
@@ -162,66 +169,4 @@ Clone the repository: git clone [https://github.com/SnehalVirwadekar/MelanomaSki
 Created by [@SnehalVirwadekar] - feel free to contact me!
 
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
 
-<!-- You don't have to include all sections - just the one's relevant to your project -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Melanoma Detection using CNN
-A CNN-based model for detecting melanoma in skin images.
-
-Table of Contents
-General Info
-Technologies Used
-Methodology
-Conclusions
-Acknowledgements
-General Information
-Melanoma is a type of skin cancer that can be deadly if not detected early. A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce manual effort in diagnosis.
-
-The project is aimed at developing a CNN-based model for detecting melanoma in skin images. The dataset used in the project consists of 2357 images of malignant and benign oncological diseases, collected from the International Skin Imaging Collaboration (ISIC).
-
-Methodology
-The methodology for building the model involved the following steps:
-
-Data Preparation
-Model Architecture Selection
-Training
-Evaluation
-Deployment
-The model was trained on a subset of the ISIC dataset, and its performance was evaluated on a separate test set. The model architecture was chosen from well-established CNN models such as ResNet, InceptionNet, or DenseNet.
-
-Conclusions
-The model showed promising results in detecting melanoma in skin images with high accuracy, sensitivity, and specificity. The deployment of the model in a dermatologist's workflow has the potential to reduce manual effort in the diagnosis of melanoma.
-
-Technologies Used
-TensorFlow - version 2.4.0
-Keras - version 2.5.0
-Numpy - version 1.19.2
-Matplotlib - version 3.3.1
-Sklearn - version 0.24.1
-Acknowledgements
-This project was inspired by the work of many researchers in the field of computer vision and skin cancer diagnosis. The dataset used in this project was obtained from the International Skin Imaging Collaboration (ISIC).
-
-Contact
-Created by [@YourGithubUsername]. Feel free to reach out with questions or feedback.
