@@ -97,10 +97,39 @@ Clone the repository: git clone [https://github.com/SnehalVirwadekar/MelanomaSki
 
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-### After training on the rectified class imbalance data
+
+### Initial model 
+
+<p>- The model's training accuracy displays a linear increase over time, whereas the validation accuracy plateaus at 50% accuracy during the training process.
+<p>- As the training epochs progress, the training loss decreases, however, the validation loss exhibits an opposing trend and increases.
+<p>- The visual representation of the model's performance indicates a substantial discrepancy between the training accuracy and validation accuracy, achieving a validation accuracy of approximately 50%.
+<p>- The noticeable difference between the training accuracy and validation accuracy is a clear indication of overfitting, indicating that the model may not generalize well to unseen data.
+
+### After training on the augmented data :
+
+<p>- The training accuracy exhibits a linear increase over time, while the validation accuracy increases and plateaus at 55% during the training process.
+<p>- As the training epochs progress, the training loss decreases in a consistent manner, and the validation loss decreases before plateauing.
+<p>- The visual representation of the model performance indicates a reduction in the difference between the training accuracy and validation accuracy compared to prior models, achieving an accuracy of approximately 55% on the validation set.
+<p>- However, the slight discrepancy between the training and validation accuracy is a notable sign of overfitting, implying that the model may not generalize well to unseen data.
+
+### After training on the augmented data with dropout :
+
+<p>- The model's training accuracy exhibits a linear progression over time, while the validation accuracy increases before plateauing at 55% accuracy throughout the training process.
+<p>- The training loss consistently decreases with each passing epoch, and a similar trend is observed with the validation loss.
+<p>- The visual analysis of the model's performance illustrates a reduction in the disparity between the training accuracy and validation accuracy in comparison to prior models, resulting in a validation accuracy of approximately 55%.
+<p>- The limited difference between the training accuracy and validation accuracy is a strong indication of the model's generalization capability to new, unseen data.
+
+
+
+### Class Distribution:
+
+<p>- A thorough analysis of the class distribution within the training dataset is crucial.
+<p>- In many cases, datasets can exhibit an imbalance in class representation, where one class has a proportionally higher number of samples compared to others. This class imbalance can have a significant impact on the quality of the final model.
+<p>- Thus, as a best practice, it is imperative to assess the distribution of classes within the data to ensure a balanced representation and to avoid any potential biases in the model.
+<p>- The class with the smallest number of samples is "Seborrheic Keratosis," with a total of 77 samples.
+<p>- In terms of proportionate representation, the class that dominates the data is "Pigmented Benign Keratosis," with a substantial 462 samples.
+
+ ### After training on the rectified class imbalance data
 
 <p>- The training accuracy and validation accuracy both increase over time, with the training accuracy increasing linearly and the validation accuracy increasing during the training process.
 
@@ -108,7 +137,7 @@ Clone the repository: git clone [https://github.com/SnehalVirwadekar/MelanomaSki
 
 <p>- The plots demonstrate a significant reduction in the gap between the training accuracy and validation accuracy compared to the previous model, reaching approximately 75% accuracy on the validation set.
 
-<p>- The difference between the training accuracy and validation accuracy is now minimal.]
+<p>- The difference between the training accuracy and validation accuracy is now minimal.
 
 
 
@@ -126,15 +155,11 @@ Clone the repository: git clone [https://github.com/SnehalVirwadekar/MelanomaSki
 
 
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@SnehalVirwadekar] - feel free to contact me!
 
 
 <!-- Optional -->
