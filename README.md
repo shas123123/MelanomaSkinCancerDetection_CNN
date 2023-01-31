@@ -11,11 +11,15 @@ Skin Cancer detection from images  using CNN, Tensorflow
 * [DataSet](#DataSet)
 * [Business Goal](#business-goal)
 * [Business Risk](#business-risk)
-* [Project Pipeline](#project_pipeline)
+* [Project Pipeline](#proj_pipeline)
 * [Model](#model)
-* [Technologies Used](#technologies-used)
+* [Usage](#usage)
 * [Conclusions](#conclusions)
+* [Technologies Used](#technologies-used)
+* [References](#References)
 * [Acknowledgements](#acknowledgements)
+* [Contact](#contact)
+
 
 
 
@@ -38,9 +42,12 @@ The model is trained on the ISIC Archive dataset, which contains a large number 
         * Squamous cell carcinoma
         * Vascular lesion
 
+
+
 ## Business Goal:
 
 The objective is to construct a multiclass classification model using a personalized convolutional neural network (CNN) implemented in TensorFlow.
+
 
 ## Business Risk:
 Some of the business risks associated with the project are:
@@ -56,6 +63,7 @@ Some of the business risks associated with the project are:
 <li><strong>Competition</strong>:<i>There may be other existing solutions or competing models in the market that perform similarly or better, making it difficult to gain a competitive advantage.</i></li>
 </ol>
 These risks need to be carefully managed and addressed in order to ensure the success and impact of the project.
+
 
 ## Project Pipeline
 The project pipeline involves several steps in order to build a multiclass classification model using a custom convolutional neural network in TensorFlow. The steps are as follows:
@@ -77,9 +85,12 @@ The project pipeline involves several steps in order to build a multiclass class
 <strong>Handling Class Imbalances</strong>: <i>To rectify class imbalances present in the training dataset, the Augmentor library is utilized.</i>
 
 <strong>Model Building and Training on Rectified Class Imbalance Data</strong>: <i>A CNN model is built on the rectified class imbalance data, with images being rescaled to normalize pixel values between (0,1), and choosing an appropriate optimizer and loss function for model training. The model is trained for approximately 30 epochs and the findings after the model fit are analyzed to see if the issues have been resolved.</i>
-<a name="model"/>
+
+
+
 ## Model
 The model uses a simple CNN architecture with convolutional, Max pooling and dense layers. The model is trained using SparseCategoricalCrossentropy loss and the Adam optimizer.
+
 
 ## Usage
 Clone the repository: git clone [https://github.com/SnehalVirwadekar/MelanomaSkinCancerDetection_CNN.git]
@@ -89,7 +100,15 @@ Clone the repository: git clone [https://github.com/SnehalVirwadekar/MelanomaSki
 - Conclusion 1 from the analysis
 - Conclusion 2 from the analysis
 - Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+### After training on the rectified class imbalance data
+
+<p>- The training accuracy and validation accuracy both increase over time, with the training accuracy increasing linearly and the validation accuracy increasing during the training process.
+
+<p>- The training loss decreases with each epoch, and the validation loss also decreases accordingly.
+
+<p>- The plots demonstrate a significant reduction in the gap between the training accuracy and validation accuracy compared to the previous model, reaching approximately 75% accuracy on the validation set.
+
+<p>- The difference between the training accuracy and validation accuracy is now minimal.]
 
 
 
@@ -98,6 +117,12 @@ Clone the repository: git clone [https://github.com/SnehalVirwadekar/MelanomaSki
 - library - version 1.0
 - library - version 2.0
 - library - version 3.0
+
+
+## References
+- ISIC Archive dataset: https://isic-archive.com/
+- TensorFlow: https://www.tensorflow.org/
+- CUDA: https://developer.nvidia.com/cuda-zone
 
 
 
