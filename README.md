@@ -40,17 +40,18 @@ The data set contains the following diseases:
 The objective is to construct a multiclass classification model using a personalized convolutional neural network (CNN) implemented in TensorFlow.
 
 ## Business Risk:
+
 Some of the business risks associated with the project are:
 <ol>
-<li>**Accuracy**: _The model's accuracy in detecting melanoma in skin images is a crucial factor. If the model produces incorrect results, it could lead to misdiagnosis and harm to patients._</li>
+<li> ** Accuracy ** : _The model's accuracy in detecting melanoma in skin images is a crucial factor. If the model produces incorrect results, it could lead to misdiagnosis and harm to patients._</li>
 
-<li>**Data Quality**: _The quality and reliability of the data used to train the model can have a significant impact on its performance. Any errors or biases in the data set can result in inaccurate results._</li>
+<li> ** Data Quality ** : _The quality and reliability of the data used to train the model can have a significant impact on its performance. Any errors or biases in the data set can result in inaccurate results._</li>
 
-<li>**Adoption**: _The success of the model depends on its adoption by dermatologists and the medical community. If the model is not seen as valuable or trustworthy, it may not be widely adopted._</li>
+<li> ** Adoption ** : _The success of the model depends on its adoption by dermatologists and the medical community. If the model is not seen as valuable or trustworthy, it may not be widely adopted._</li>
 
-<li>**Technical Challenges**: _Developing a CNN-based model can be technically challenging, and there may be difficulties in training the model and optimizing its performance._</li>
+<li> ** Technical Challenges ** : _Developing a CNN-based model can be technically challenging, and there may be difficulties in training the model and optimizing its performance._</li>
 
-<li>**Competition**: _There may be other existing solutions or competing models in the market that perform similarly or better, making it difficult to gain a competitive advantage._</li>
+<li> ** Competition ** : _There may be other existing solutions or competing models in the market that perform similarly or better, making it difficult to gain a competitive advantage._</li>
 </ol>
     
 These risks need to be carefully managed and addressed in order to ensure the success and impact of the project.
