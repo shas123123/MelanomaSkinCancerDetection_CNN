@@ -166,7 +166,9 @@ Clone the repository: git clone [https://github.com/SnehalVirwadekar/MelanomaSki
 
 
 ## Contact
-Created by [@SnehalVirwadekar] - feel free to contact me!
+Created by [@SnehalVirwadekar]((https://github.com/SnehalVirwadekar))\
+[Shashank Pandey](https://github.com/shas123123)\
+[Sneha Thomas]() - feel free to contact us!
 
 
 
