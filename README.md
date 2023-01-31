@@ -147,9 +147,9 @@ Clone the repository: git clone [https://github.com/SnehalVirwadekar/MelanomaSki
 
 
 ## Technologies Used
-- TensorFlow - version 2.4.0
-- Keras - version 2.5.0
-- Numpy - version 1.19.2
+- TensorFlow - version 2.10.0
+- Keras - version 2.10.0
+- Numpy - version 1.24.2
 - Matplotlib - version 3.3.1
 - Sklearn - version 0.24.1
 
