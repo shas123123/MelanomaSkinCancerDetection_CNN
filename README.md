@@ -8,10 +8,10 @@ Skin Cancer detection from images  using CNN, Tensorflow
 
 ## Table of Contents
 * [General Info](#general-information)
-* [DataSet](#dataset)
+* [DataSet](#DataSet)
 * [Business Goal](#business-goal)
 * [Business Risk](#business-risk)
-
+* [Project Pipeline](#project_pipeline)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
