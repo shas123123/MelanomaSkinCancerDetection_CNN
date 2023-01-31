@@ -8,9 +8,9 @@ Skin Cancer detection from images  using CNN, Tensorflow
 
 ## Table of Contents
 * [General Info](#general-information)
-* [DataSEt](#dataset)
+* [DataSet](#dataset)
 * [Business Goal](#business-goal)
-* [Business Risks](#business-risks)
+* [Business Risk](#business-risk)
 
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
@@ -60,25 +60,26 @@ These risks need to be carefully managed and addressed in order to ensure the su
 
     The project pipeline involves several steps in order to build a multiclass classification model using a custom convolutional neural network in TensorFlow. The steps are as follows:
 
-        Data Reading and Understanding: The first step involves defining the path for train and test images to be used in the project.
+        <strong>Data Reading and Understanding</strong>: The first step involves defining the path for train and test images to be used in the project.
 
-        **Dataset Creation**: _The next step is to create the train and validation datasets from the train directory, with a batch size of 32 and resizing the images to 180 x 180._
+        <strong>Dataset Creation</strong>: <i>The next step is to create the train and validation datasets from the train directory, with a batch size of 32 and resizing the images to 180 x 180.</i>
 
-        **Dataset Visualization**: _The project involves visualizing one instance of all the nine classes present in the dataset to get an understanding of the distribution of classes in the data._
+        <strong>Dataset Visualization</strong>: <i>The project involves visualizing one instance of all the nine classes present in the dataset to get an understanding of the distribution of classes in the data.</i>
 
-        **Model Building and Training**: _The project involves building a CNN model that can accurately detect the nine classes present in the dataset. The model is built by rescaling the images to normalize the pixel values between (0,1) and choosing an appropriate optimizer and loss function for model training. The model is trained for approximately 20 epochs and the findings after the model fit are analyzed to check for evidence of overfitting or underfitting._
+        <strong>Model Building and Training</strong>: <i>The project involves building a CNN model that can accurately detect the nine classes present in the dataset. The model is built by rescaling the images to normalize the pixel values between (0,1) and choosing an appropriate optimizer and loss function for model training. The model is trained for approximately 20 epochs and the findings after the model fit are analyzed to check for evidence of overfitting or underfitting.</i>
 
-        **Data Augmentation**: _To resolve issues of overfitting or underfitting, an appropriate data augmentation strategy is chosen._
+        <strong>Data Augmentation</strong>: <i>To resolve issues of overfitting or underfitting, an appropriate data augmentation strategy is chosen.</i>
 
-        **Model Building and Training on Augmented Data**: _A CNN model is built using the augmented data and is trained for approximately 20 epochs. The findings after the model fit are analyzed to see if the earlier issue has been resolved._
+        <strong>Model Building and Training on Augmented Data</strong>: <i>A CNN model is built using the augmented data and is trained for approximately 20 epochs. The findings after the model fit are analyzed to see if the earlier issue has been resolved.</i>
 
-        **Class Distribution**: _The project involves examining the class distribution in the training dataset, including which classes dominate the data in terms of proportionate number of samples and which class has the least number of samples._
+        <strong>Class Distribution</strong>: <i>The project involves examining the class distribution in the training dataset, including which classes dominate the data in terms of proportionate number of samples and which class has the least number of samples.</i>
 
-        **Handling Class Imbalances**: _To rectify class imbalances present in the training dataset, the Augmentor library is utilized._
+        <strong>Handling Class Imbalances</strong>: <i>To rectify class imbalances present in the training dataset, the Augmentor library is utilized.</i>
 
-        **Model Building and Training on Rectified Class Imbalance Data**: _A CNN model is built on the rectified class imbalance data, with images being rescaled to normalize pixel values between (0,1), and choosing an appropriate optimizer and loss function for model training. The model is trained for approximately 30 epochs and the findings after the model fit are analyzed to see if the issues have been resolved._
+        <strong>Model Building and Training on Rectified Class Imbalance Data</strong>: <i>A CNN model is built on the rectified class imbalance data, with images being rescaled to normalize pixel values between (0,1), and choosing an appropriate optimizer and loss function for model training. The model is trained for approximately 30 epochs and the findings after the model fit are analyzed to see if the issues have been resolved.</i>
 
-
+## Model
+The model uses a simple CNN architecture with convolutional, Max pooling and dense layers. The model is trained using SparseCategoricalCrossentropy loss and the Adam optimizer.
 
 
 
