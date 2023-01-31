@@ -12,6 +12,7 @@ Skin Cancer detection from images  using CNN, Tensorflow
 * [Business Goal](#business-goal)
 * [Business Risk](#business-risk)
 * [Project Pipeline](#project_pipeline)
+* [Model](#model)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
@@ -76,7 +77,7 @@ The project pipeline involves several steps in order to build a multiclass class
 <strong>Handling Class Imbalances</strong>: <i>To rectify class imbalances present in the training dataset, the Augmentor library is utilized.</i>
 
 <strong>Model Building and Training on Rectified Class Imbalance Data</strong>: <i>A CNN model is built on the rectified class imbalance data, with images being rescaled to normalize pixel values between (0,1), and choosing an appropriate optimizer and loss function for model training. The model is trained for approximately 30 epochs and the findings after the model fit are analyzed to see if the issues have been resolved.</i>
-
+<a name="model"/>
 ## Model
 The model uses a simple CNN architecture with convolutional, Max pooling and dense layers. The model is trained using SparseCategoricalCrossentropy loss and the Adam optimizer.
 
@@ -90,7 +91,7 @@ Clone the repository: git clone [https://github.com/SnehalVirwadekar/MelanomaSki
 - Conclusion 3 from the analysis
 - Conclusion 4 from the analysis
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
 
 
 ## Technologies Used
@@ -98,7 +99,7 @@ Clone the repository: git clone [https://github.com/SnehalVirwadekar/MelanomaSki
 - library - version 2.0
 - library - version 3.0
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+
 
 ## Acknowledgements
 Give credit here.
