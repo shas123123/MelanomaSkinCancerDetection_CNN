@@ -4,10 +4,11 @@ Skin Cancer detection from images  using CNN, Tensorflow
 
 # Project Name
 ##  Optimizing Multiclass Image Classification with Custom CNNs in TensorFlow
-
+- This repository contains the code for detecting melanoma using a Convolutional Neural Network (CNN) and TensorFlow with GPU acceleration. The model is trained on a dataset of skin lesion images to classify them as either melanoma or benign.
 
 ## Table of Contents
 * [General Info](#general-information)
+* [DataSEt](#dataset)
 * [Business Goal](#business-goal)
 * [Business Risks](#business-risks)
 
@@ -23,7 +24,8 @@ Skin Cancer detection from images  using CNN, Tensorflow
 - The aim is to develop a model that can accurately detect melanoma in skin images and reduce manual efforts in diagnosis.
 - The business problem that the project is trying to solve is the manual effort required in the diagnosis of melanoma, a type of skin cancer. The manual process of evaluating images to detect melanoma can be time-consuming and prone to human error. The aim of the project is to develop a CNN-based model that can accurately detect melanoma in skin images and reduce the manual effort required in the diagnosis process. The deployment of the model in a dermatologist's workflow has the potential to increase efficiency and accuracy, potentially leading to better patient outcomes.
  
-The data set contains the following diseases:
+## DataSet : 
+The model is trained on the ISIC Archive dataset, which contains a large number of dermoscopic images of skin lesions, including both benign and malignant melanomas. The dataset is pre-processed and split into training and validation sets.
 
         * Actinic keratosis
         * Basal cell carcinoma
